@@ -79,13 +79,18 @@ tableforall
     ## 5 Draymond Green   578  245     42.4%
 
 ``` r
+knitr::include_graphics('../images/photo.jpg')
+```
+
+<img src="../images/photo.jpg" width="640" />
+
+``` r
 #motivation and introduction
 The Golden State Warriors is th best team in NBA since 14-15 Season, any word to praise GSW is definitely beyond desciption. As a fan and a writer from Oakland "local sport agency", I have to analysis Warriors's success these years to find out what makes GSW so great.
 #background
 The new "Hampton Five" formed at the end of 15-16 Season, when Lebron beat the GSW via unfare referee's suspension on Draymond Green on the fifth final, which led to the low morale and a downturn of the so-called "North Carolina Eagle", Harrison Barnes, who misses infinite threes in the last two finals. Since then, GSW tried to inhance their weakness at SF. Fortunately, as the loser of Western Conference Final, the Oklahoma City Thunder's Big Bodss, Kevin Durant, was convinced to join GSW after Draymond Green's "phonecall recruiting". You know what happened after that: two championships in a row and swept away the Cavaliers last year, what a magnificant, splendid revenge!
 #data
 OK, back to our thesis. During 16-17 Season, the GSW played "normal", but still won 67 games, the new "Hampton Five" was the main reason why they played so well. To make it clear, I list the Effective shooting percentage of them.
-knitr::include_graphics('../images/photo.jpg')
 ```
 
 ``` r
@@ -183,7 +188,7 @@ knitr::include_graphics('../images/gsw-shot-charts.png')
 Like I've said before, the fire power of GSW focus on Stephen Curry, Klay Thompson, and Kevin Durant. They tried thousands of shooting and made quite a lot. From the hot shot chart of Stephen Curry's, you can see he tried a lot threes even at the half court! I'm firmly believed that even you extend the court graph to the half court, you can still find his threes on that half of the court.
 Via Klay Thompson's hot shot graph, we can find that he made so many threes at bottom corners, the 90 degrees arc, and 45 degrees arc. Obviously, the GSW customized many tactics around him, not like Stephen Curry, shooting wherever he like.
 KD's hot spot graph is like a masterpiece, and fulfill people's dream of an ideal player: a monster at the painted field, decent feeling at middle distance, and good three shooting skills! Perfect!
-In a nutshell, the hampton five's succeess have some reasons: the shooters have so great shooting percentage. It's not like every team can set up "five short players" and achieve the championship. First, they need a historical level like Stephen Curry, Klay Thompson, Ray Allen, Reggie Miller; second,an insider monster with nice threes, like Kevin Durant and Giannis Antetokounmpo; third, good defenders, which is most likely to get. As far as I know, the only obstacles to the GSW are age and "salary cap". I really hope the Golden State Warriors can win the championship this year, another three championships in a row! Forming a dynasty just like 91-93, 96-98 Bulls or 00-02 Laers. Go Warriors!
+In a nutshell, the hampton five's succeess have some reasons: the shooters have so great shooting percentage. It's not like every team can set up "five short players" and achieve the championship. First, they need a historical level like Stephen Curry, Klay Thompson, Ray Allen, Reggie Miller; second,an insider monster with nice threes, like Kevin Durant and Giannis Antetokounmpo; third, good defenders, which is most likely to get. As far as I know, the only obstacles to the GSW are age and "salary cap". I really hope the Golden State Warriors can win the championship this year, another three championships in a row! Forming a dynasty just like 91-93, 96-98 Bulls or 00-02 Lakers. Let's go Warriors!
 ```
 
 ``` r
