@@ -1,7 +1,7 @@
 ---
 title: "README"
 author: "wei le"
-date: "2019Äê5ÔÂ3ÈÕ"
+date: "2019Ã„Ãª5Ã”Ã‚3ÃˆÃ•"
 output: github_document
 ---
 
@@ -56,6 +56,5 @@ devtools::install_github("wadelucky/hw-stat133-wadelucky
 /binomial")
 
 # install "binomial" (with vignettes)
-devtools::install_github("wadelucky/hw-stat133-wadelucky
-/binomial", build_vignettes = TRUE)
+devtools::install_github("wadelucky/hw-stat133-wadelucky/binomial", build_vignettes = TRUE)
 ```
