@@ -39,6 +39,5 @@ devtools::install_github("wadelucky/hw-stat133-wadelucky
 /binomial")
 
 # install "binomial" (with vignettes)
-devtools::install_github("wadelucky/hw-stat133-wadelucky
-/binomial", build_vignettes = TRUE)
+devtools::install_github("wadelucky/hw-stat133-wadelucky/binomial", build_vignettes = TRUE)
 ```
