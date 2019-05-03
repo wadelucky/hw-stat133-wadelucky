@@ -1,0 +1,104 @@
+---
+title: "introduction2binomial"
+author: "Wei Le"
+date: "'r Sys.Date()'"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{introduction2binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(binomial)
+```
+
+## Introduction to Binomial
+The package '"binomial"' is a minimal implementation for calculating probabillities of a Binomial random variable, and related calculations such as probability distribution, the expected value, variance, etc.
+
+## bin_choose function
+This is a trivial function which is eequivalent to choose k from n.
+
+```{r}
+bin_choose(5,2)
+```
+## bin_mean function
+This is a simple function returns the expected value of successes for n trials with probability p.
+
+
+```{r}
+bin_mean(10,0.5)
+```
+
+## bin_mode function
+This is a simple function returns the most likely  number of success in n independent trials with probability p of success on each trial is m, the greater integer less than or equal to np+p.
+
+```{r}
+bin_mode(11,0.6)
+```
+## bin_variance function
+This is a simple function depicts the variance of given n and p, returns np(1-p).
+
+```{r}
+bin_variance(10,0.5)
+```
+
+## bin_skewness function
+This is another simple function measuring the asymmetry of the probability distribution of a random variable about its mean.
+
+```{r}
+bin_skewness(10,0.5)
+```
+
+## bin_kurtosis function
+This is a function measuring the "tailedness" of the probability distribution of a random variable.
+
+```{r}
+bin_kurtosis(10,0.5)
+```
+
+## bin_probability function
+This is a function measuring the expected probability of given wanted successes and prob p and trials n.
+
+```{r}
+bin_probability(10,20,0.5)
+```
+
+## bin_distribution function
+You can use this function to see the distribution of bin_probability for any successes given prob p and trials n.
+Additionally, you can visualize the table via the supported function plot().
+
+```{r}
+temp<-bin_distribution(20,0.5)
+temp
+plot(temp)
+```
+
+## bin_cumulative function
+You can use this function to get the cumulative table of bin_distributions.
+Also, plot it to visualize.
+
+```{r}
+temp<-bin_cumulative(10,0.5)
+temp
+plot(temp)
+```
+## bin_variable function
+This is the final summary function for this package which gives you the total summary of the variables.
+By summarizing  it, you can get the trials and prob data; also, by depicting the summary gives you the mean, mode, variance, skewness, and kurtosis of the given prob and trials.
+
+```{r}
+bin1<-bin_variable(trials=10,p=0.3)
+bin1
+
+binsum1<-summary(bin1)
+binsum1
+```
+
