@@ -4,7 +4,7 @@ Private Repository for HW assignments of Stat 133 (Spring 2019)
 
 - Name: Wei Le
 - Github username: wadelucky
-- Email: wadelucky [at] email.com
+- Email: wadelucky [at] berkeley.edu
 - Lab section: 109
 - GSI: Miyabi Ishihara
 
